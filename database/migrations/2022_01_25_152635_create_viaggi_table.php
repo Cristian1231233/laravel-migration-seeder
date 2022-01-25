@@ -18,7 +18,6 @@ class CreateViaggiTable extends Migration
             $table->string('name');
             $table->text('description');
             $table->integer('price');
-            $table->smallInteger('vote');
             $table->date('release_date');
             $table->timestamps();
         });
