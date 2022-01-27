@@ -4,7 +4,7 @@
 
     <h1>Viaggi</h1>
 
-    @dump($viaggio)
+    @dump($viaggi)
     
 
     @foreach ( $viaggi as $viaggio )
