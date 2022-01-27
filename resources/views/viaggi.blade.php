@@ -4,7 +4,7 @@
 
     <h1>Viaggi</h1>
 
-    @dump($viaggi)
+    
     
 
     @foreach ( $viaggi as $viaggio )
@@ -16,6 +16,7 @@
         <div>{{$viaggio->release_date}}</div>
 
     @endforeach
+    
     
     
 @endsection

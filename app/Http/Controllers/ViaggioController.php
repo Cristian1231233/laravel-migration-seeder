@@ -8,7 +8,7 @@ use Illuminate\Http\Request;
 class ViaggioController extends Controller
 {
     public function index(){
-        $viaggio = Viaggio::select('*');
+        $viaggi = Viaggio::all();
         return view('viaggi', compact('viaggi'));
     }
 }
